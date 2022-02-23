@@ -28,11 +28,11 @@ File size of Yugal.JS is just 16kb.
   </head>
  ```
 - Add follwing code to `<body>` tag.
-  ```html
+```html
   <div id="yugal-root"></div>
 ```
 - Add following code at the end of `<body>`
- ```html
+- ```html
  <script src="https://yugaljs.netlify.app/yugal.js"></script>
 ```
 - Create a file with name `.htaccess` in your root folder of project. Follow the instructions below. 
