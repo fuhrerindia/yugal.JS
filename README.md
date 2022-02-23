@@ -43,6 +43,8 @@ File size of Yugal.JS is just 16kb.
 - Make sure that `app.js` is included in `index.html` after calling `./yugal/yugal.js` at the end of `body` tag. 
 - Importing `./yugal/yugal.js` is very important. And make sure calling it before calling your other `js` scripts.
 ### Creating First Page
+**MAKE SURE TO POINT `ErrorDocument 404` in `.htaccess` to `index.html` of PROJECT**
+
 - Pages in `Yugal.JS` are methods. You are needed to define a simple `js` method which return an `object` with `render` parameter. `render` parameter accepts the code to render into the body. Below is the example.
 ```javascript
     function HomePage(){
