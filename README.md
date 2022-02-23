@@ -7,6 +7,36 @@ File size of Yugal.JS is just 16kb.
 
  - [Paurush Sinha](https://www.instagram.com/sinha.paurush/)
 
+## Coverting Existing Bare Project to Yugal.JS
+- Add the following code to your `<head>` tag.
+```
+ <link rel="stylesheet" href="https://yugaljs.netlify.app/yugal.css">
+```
+- Add comments below at the end of `<head>` tag.
+ ```
+<!-- ADD ANY YOUR CUSTOM <HEAD> CODE ABOVE, DON'T ADD ANY CUSTOM HEAD CODE BELOW.  -->
+<!-- DO NOT DELETE THIS COMMENT! THIS COMMENT IS VERY IMPORTANT FOR YUGAL TO WORK! -->
+ ```
+ So that code must look like
+ ```html
+  <head>
+   ...
+    <link rel="stylesheet" href="https://yugaljs.netlify.app/yugal.css">
+   ...
+   <!-- ADD ANY YOUR CUSTOM <HEAD> CODE ABOVE, DON'T ADD ANY CUSTOM HEAD CODE BELOW.  -->
+   <!-- DO NOT DELETE THIS COMMENT! THIS COMMENT IS VERY IMPORTANT FOR YUGAL TO WORK! -->
+  </head>
+ ```
+- Add follwing code to `<body>` tag.
+  ```html
+  <div id="yugal-root"></div>
+```
+- Add following code at the end of `<body>`
+ ```html
+ <script src="https://yugaljs.netlify.app/yugal.js"></script>
+```
+- Create a file with name `.htaccess` in your root folder of project. Follow the instructions below. 
+**Remove all other code from `<body>`, and convert it in the following code format.**
 ## How to create an App with Yugal.JS?
 - Open `index.html` file in root, and customize site title in `<title>` and in `content` of `<meta name="title">` for better SEO.
 - Customize `app.js` file.
