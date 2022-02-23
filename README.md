@@ -208,8 +208,8 @@ const {navigate, router, header, title, production} = yugal;
 production();
 const navBar = `
     <ul>
-        <li onclick="">HOME</li>
-        <li onclick="">ABOUT</li>
+        <li onclick="navigate(HomePage())">HOME</li>
+        <li onclick="navigate(AboutPage())">ABOUT</li>
     </ul>
 `;
 function HomePage(){
